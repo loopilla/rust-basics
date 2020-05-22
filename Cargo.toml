@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Ferenc Szujo <loopilla@gmail.com>"]
 edition = "2018"
 
+[dependencies]
+num-traits = "*"
+rand = "*"
+
 [[example]]
 name = "ownership"
 
@@ -12,3 +16,15 @@ name = "structs"
 
 [[example]]
 name = "enums"
+
+[[example]]
+name = "poly"
+
+[[example]]
+name = "vector2"
+
+[[example]]
+name = "fibonacci"
+
+[[example]]
+name = "generics"
